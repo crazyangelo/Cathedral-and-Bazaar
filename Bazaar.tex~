@@ -1,4 +1,4 @@
-\documentclass[10pt, b5paper]{book}
+\documentclass[12pt,]{article}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 \usepackage{titlesec}
@@ -6,7 +6,6 @@
 \titleformat{\subsection}{\Large\filcenter}{}{1em}{}
 \titleformat{\subsubsection}{\large\filcenter}{}{1em}{}
 \titleformat{\paragraph}{\filcenter}{}{1em}{}
-\usepackage[bottom=2.5cm]{geometry}
 \usepackage{indentfirst}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -52,7 +51,7 @@
             linkcolor=magenta,
             pdfborder={0 0 0}}
 \urlstyle{same}  % don't use monospace font for urls
-\setlength{\parindent}{16pt}
+\setlength{\parindent}{20pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
