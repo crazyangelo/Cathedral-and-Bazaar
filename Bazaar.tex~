@@ -6,7 +6,7 @@
 \titleformat{\subsection}{\Large\filcenter}{}{1em}{}
 \titleformat{\subsubsection}{\large\filcenter}{}{1em}{}
 \titleformat{\paragraph}{\filcenter}{}{1em}{}
-\usepackage[bottom=2cm]{geometry}
+\usepackage[bottom=2.5cm]{geometry}
 \usepackage{indentfirst}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -19,8 +19,6 @@
   \settowidth{\@tempdima}{#2}%
   \makebox[\@tempdima]{\hspace*{#1}#2}%
 }
-\usepackage{titletoc}
-\renewcommand\contentsname{教堂與市集}
 \usepackage{ctable}
 \usepackage{tikz}
 \usepackage{pgfplots}
@@ -34,7 +32,7 @@
   \fi
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
   \newcommand{\euro}{€}
-    \setmainfont[AutoFakeSlant=0.4, AutoFakeBold=2.5]{WenQuanYi Micro Hei}
+    \setmainfont[AutoFakeSlant=0.4, AutoFakeBold=3.5]{WenQuanYi Micro Hei}
 \fi
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
@@ -65,11 +63,6 @@
 
 \begin{document}
 \maketitle
-
-\begingroup
-\hypersetup{linkcolor=black}
-\tableofcontents
-\endgroup
 
 \newpage
 \section{正體中文版序}
